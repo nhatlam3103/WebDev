@@ -1,225 +1,80 @@
-.container-fluid{
-    display: flex;
-    flex-direction: column;
+*{
+    margin: 0;
+    padding: 0;
 }
-.header{
-    background-color: #4e2a84;
-
-}
-.col-md-5{
-    text-align: center;
-}
-.name{
-    font-size: 40px;
-    color: white;
-    
-}
-.nav-item{
-    padding-top: 15px;
-    padding-left: 40px;
-}
-.nav-item a{
-    color: aliceblue;
-    text-decoration: none;
-    padding: 5px;
-    display: inline;
-
-}
-.nav-item a:hover{
-    color: brown;
-}
-.content{
-    text-align: center;
-    height: 600px;
-    color: white;
-    padding: 20%;
-}
-.content h1{
-
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 40px;
-    color: white;
-}
-
-.content a{    
-    text-decoration: none;
-    color: white;
-    font-weight: 500;
-}
-.content button{
-    border: 1px solid white;
-    background-color: #ff0e83;
-    border-radius: 2px;
-    height: 40px;
-    width: 150px;
-
-}
-.learnmore:hover button {
-    background-color: white;
-    border: 1px solid #ff0e83;
-    color: black;
-}
-.learnmore:hover a {
-    color: black;
-}
-
-
-
-
 .container{
-    display: flex;
-    flex-direction: row;
-    max-width: 1700px;
-    max-height: 500px;  
-    padding: 0;
-
+  max-width: 56.25em;
+  height: auto;
+  margin: 0 25%;
 }
-.item{
-    text-align: center;
-    width: 350px;
+.name{background-color: red;color: white;}
+.list-menu{margin: 10px 0;}
+.list-menu li{list-style: none;}
+#content-introduce{margin: 20px 0;background-color: brown; color: white;}
+#content-introduce h1{text-align: center;font-weight: bold;margin: 10px 0;}
+#content-introduce p{font-size: 17px;}
+#content-info{margin: 20px 0;color: white;background-color: brown;}
+#content-info h1{text-align: center; font-weight: bold;}
+.content-info-list{
+    margin: 0 30px;
 }
-.item-img{
-    flex-grow: 1;
-}
-.item-text{
-    padding-top: 10%;
-    
-}
-.item span{
-    color:darkgrey;
-}
-.item h2{
-    color:white;
-}
-
-
-
-.container2{
-    display: flex;
-    flex-direction: row;
-    max-width: 1700px;
-    max-height: 500px;  
-    padding: 0;
-
-}
-.item2-text{
-    padding-top: 10%;
-    flex-grow: 1;
-}
-
-
-
-.container3{
-    display: flex;
-    flex-direction: row;
-    max-width: 1700px;
-    max-height: 500px;  
-    padding: 0;
-
-}
-
-
-.container4-big{
-    display: flex;
-    flex-direction: column;
-    max-width: 1700px;
-    height: 900px;
-    padding: 0;
-    
-    
-}
-.container4-title{
-
-    height: 250px;
-    padding-top: 100px;
-    padding-left: 500px;
-}
-.container4-title h2{
-    font-size: 60px;
-    color: white;
-
-}
-
-
-.container4{
-    display: flex;
-    flex-direction: row;
-    max-width: 1700px;
-    flex-grow: 1;
-    padding: 0;
-    justify-content: center;
-    text-align: center;
-    padding-right: 100px;
-}
-
-.item4{
-    height: 350px;
-    width: 200px;
-    margin-right: 60px;
-    line-height: 20px;  
-}
-.item4 span{
-    font-size: 16px;
-}
-.item4 a{    
-    text-decoration: none;
-    color: white;
-    font-weight: 500;
-   
-}
-.item4 button{
-    border: 1px solid white;
-    background-color: #ff0e83;
-    border-radius: 2px;
+.table-price{ margin: 20px 0; padding: 0 12%;}
+.table-price h2 {margin-bottom: 20px;text-align: center;}
+.table-price td{
     height: 40px;
-    width: 150px;
-
+    width: 120px;
 }
 
-#sizeLogo{
-    transform: rotate(180deg);
+.table-price th{height: 40px;}
+#bg-green-tea{
+    background-image: url(./img/greentea.jpg);
+    background-size: 300px 200px;
+    text-align: right;
 }
-.image{
-    margin-left: 50px;
-    width: 100px;
-    height: 100px;
-    border: 3px solid #4e2a84;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-.image:hover span{
-   color:#ff0e83;
-}
-.count{
-    display: flex;
-    flex-direction: row;
-    max-width: 1700px;
-    justify-content: center;
-}
-.item-number{
-    width: 300px;
-    height: 300px;
-    
+#bg-black-tea{
+    background-image: url(./img/blacktea.jpg);
+    background-size: 300px 200px;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#bg-olong-tea{
+    background-image: url(./img/olongtea.jpg);
+    background-size: 300px 200px;
+}
+#bg-fruit-tea{
+    background-image: url(./img/fruit.jpg);
+    background-size: 220px 150px;
+    text-align: center;
+}
+#bg-milk-tea{
+    background-image: url(./img/milktea.png);
+    background-size: 200px 200px;
+    text-align: center;
+}
+#hot-only{text-align: center;}
+#cold{text-align: right;}
+#price{text-align: center;}
+
+/* css trang giới thiệu KFC */
+.container-fluid{
+    background-color: gainsboro;
+}
+.container-intro{
+    max-width: 56.25em;
+    height: auto;
+    margin: 0 25%;
+    background-color: white;
+}
+.container-intro h1{
+    text-align: center;
+    font-weight: bold;
+    color:brown;
     font-size: 25px;
-    font-weight: 600;
-    padding-top: 100px;
+}
+.container-intro a{
+    text-decoration: none;
 
 }
-.counter{
-    font-weight: 700;
-    font-size: 40px;
-    color: #4e2a84;
+.content-intro p{
+    margin: 10px 5px;
+  
 }
-
-
-
-
-
-
-
